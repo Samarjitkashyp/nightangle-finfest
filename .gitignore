@@ -1,0 +1,23 @@
+# WordPress core (not needed)
+wp-admin/
+wp-includes/
+
+# WP config and sensitive info
+wp-config.php
+.htaccess
+
+# Uploads and cache (optional)
+wp-content/uploads/
+wp-content/cache/
+
+# Logs, backups, temp files
+*.log
+*.sql
+*.zip
+*.tar.gz
+
+# IDE or system files
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
